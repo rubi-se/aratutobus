@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<style>
+body {
+	background-image: url(C:/Users/Admin-IcoTul/Desktop/proyecto/vector-fondo.jpg);
+	background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<center><h1>Selecciona tu horario de viaje </h1></center>
+	<center>
+	<form action="/submit-form" method="post"></form>
+	<label for="nombre">nombres:</label>
+	<input type="text" id="nombre" name="nombre">
+<br><br>
+	<form action="/submit-form" method="post"></form>
+	<label for="apellidos">apellidos:</label>
+	<input type="text" id="apellidos" name="apellidos">
+	<br><br>
+	<form action="/submit-form" method="post"></form>
+	<label for="telefono">telefono:</label>
+	<input type="text" id="telefono" name="telefono">
+	<br><br>
+	<label>genero:</label>
+	<input type="radio" id="hombre" name="genero" value="hombre">
+	<label for="hombre">hombre</label>
+<input type="radio" id="mujer" name="genero" value="mujer">
+	<label for="mujer">mujer</label>
+	 <br><br>
+	<h3>Horarios</h3>
+	<input type="month"> <input type="time"> <br><br>
+		<label for="estado">Origen:</label>
+		<select id="estado" name="estado">
+		<option value="puebla">puebla</option>
+<option value="cdmx">cdmx</option>
+	<option value="guadalajara">guadalajara</option>
+		</select>
+	<label for="estado">Destino:</label>
+		<select id="estado" name="estado">
+		<option value="puebla">puebla</option>
+<option value="cdmx">cdmx</option>
+	<option value="guadalajara">guadalajara</option>	
+	</select>
+	<br><br>
+		<label for="suscripcion">He leido y aceptado las condiciones:</label>
+		<input type="checkbox" id="suscripcion" name="suspcripcion">
+		<br><br>
+		
+		<label for="mensajes">Mensaje</label>
+		<br>
+		<textarea id="mensaje" name="mensaje"></textarea>
+		<right><br><br>
+		<input type="submit" value="enviar"></right>
+		 
+	
+	</center>
+	
+</body>
+</html>

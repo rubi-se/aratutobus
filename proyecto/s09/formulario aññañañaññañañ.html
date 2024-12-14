@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+	<style>
+	body {
+	background-image: URL(C:/Users/Admin_IcoTul/OneDrive/Escritorio/s09/vector2.jpg);
+	background-repeat: no-repeat
+	</style>
+</head>
+
+<body><center>
+	<h1>Selecciona tu horario de viaje</h1>
+	<form action="/submit-form" method="POST">
+
+	<label for="nombre">Nombres:</label>
+	<input type="text" id="nombre" name="nombre">
+		<br><br>
+		<label for="apellidos">Apellidos:</label>
+		<input type="apellidos" id="apellidos" name="apellidos">
+		<br><br>
+		<label for="telefono">Telefono:</label>
+		<input type="telefono" id="telefono" name="telefono"> <br><br>
+		
+		<label>Genero:</label>
+		<input type="radio" id="hombre" name="genero" value="homre">
+		<label for="hombre">Hombre</label>
+		<input type="radio" id="Mujer" name="genero" value="Mujer">
+		<label for="mujer">Mujer</label><br>
+		
+		<h3>Horarios</h3>
+		<input type="month">   <input type="time"><br><br>
+		
+		<label for="Estado">Origen:</label>
+		<select id="Estado" name="Estado">
+		<option value="Puebla">Puebla</option>
+			<option value="cdmx">CDMX</option>
+			<option value="Monterrey">Monterrey</option>
+		</select>
+		
+		<label for="Estado">Destino:</label>
+		<select id="Estado" name="Estado">
+		<option value="Puebla">Puebla</option>
+			<option value="cdmx">CDMX</option>
+			<option value="Monterrey">Monterrey</option>
+		</select>
+		<br><br>
+		<label for="suscripcion"> He leido y aceptado los terminos y condiciones:</label>
+		<input type="checkbox" id="suscripcion" name="suscripcion"><br><br>
+		
+		<label for="mensaje">Mensaje:</label><br>
+		<textarea id="mensaje"></textarea>
+		
+		<right><br><br>
+			<input typr="submit" value="Enviar">
+		</right>
+		
+	</form>		</center>
+</body>
+</html>
